@@ -25,7 +25,7 @@ body {
 
 @-webkit-keyframes peach_alive {
 	0%{
-		background-color: #ff6745;
+		background-color: #fc3d3d;
 	}
 	25%{
 		background-color: #fcff45;
@@ -37,12 +37,12 @@ body {
 		background-color: #f08dae;
 	}
 	100%{
-		background-color: #fffff0;
+		background-color: #3dfce9;
 	}
 }
 @-moz-keyframes peach_alive {
 	0%{
-		background-color: #ff6745;
+		background-color: #fc3d3d;
 	}
 	25%{
 		background-color: #fcff45;
@@ -54,13 +54,13 @@ body {
 		background-color: #f08dae;
 	}
 	100%{
-		background-color: #fffff0;
+		background-color: #3dfce9;
 	}
 }
 
 @-o-keyframes peach_alive {
 	0%{
-		background-color: #ff6745;
+		background-color: #fc3d3d;
 	}
 	25%{
 		background-color: #fcff45;
@@ -72,13 +72,13 @@ body {
 		background-color: #f08dae;
 	}
 	100%{
-		background-color: #fffff0;
+		background-color: #3dfce9;
 	}
 }
 
 @-ms-keyframes peach_alive {
 	0%{
-		background-color: #ff6745;
+		background-color: #fc3d3d;
 	}
 	25%{
 		background-color: #fcff45;
@@ -90,13 +90,13 @@ body {
 		background-color: #f08dae;
 	}
 	100%{
-		background-color: #fffff0;
+		background-color: #3dfce9;
 	}
 }
 
 @keyframes peach_alive {
 	0%{
-		background-color: #ff6745;
+		background-color: #fc3d3d;
 	}
 	25%{
 		background-color: #fcff45;
@@ -108,7 +108,7 @@ body {
 		background-color: #f08dae;
 	}
 	100%{
-		background-color: #fffff0;
+		background-color: #3dfce9;
 	}
 }
 
