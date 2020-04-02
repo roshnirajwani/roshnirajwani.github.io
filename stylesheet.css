@@ -25,16 +25,16 @@ body {
 
 @-webkit-keyframes peach_alive {
 	0%{
-		background-color: #fffff0;
+		background-color: #ff6745;
 	}
 	25%{
-		background-color: #fffff7;
+		background-color: #fcff45;
 	}
 	50%{
-		background-color: #fffff0;
+		background-color: #45ffca;
 	}
 	75%{
-		background-color: #fffffa;
+		background-color: #f08dae;
 	}
 	100%{
 		background-color: #fffff0;
@@ -42,16 +42,16 @@ body {
 }
 @-moz-keyframes peach_alive {
 	0%{
-		background-color: #fffff0;
+		background-color: #ff6745;
 	}
 	25%{
-		background-color: #fffff7;
+		background-color: #fcff45;
 	}
 	50%{
-		background-color: #fffff0;
+		background-color: #45ffca;
 	}
 	75%{
-		background-color: #fffffa;
+		background-color: #f08dae;
 	}
 	100%{
 		background-color: #fffff0;
@@ -60,16 +60,16 @@ body {
 
 @-o-keyframes peach_alive {
 	0%{
-		background-color: #fffff0;
+		background-color: #ff6745;
 	}
 	25%{
-		background-color: #fffff7;
+		background-color: #fcff45;
 	}
 	50%{
-		background-color: #fffff0;
+		background-color: #45ffca;
 	}
 	75%{
-		background-color: #fffffa;
+		background-color: #f08dae;
 	}
 	100%{
 		background-color: #fffff0;
@@ -78,16 +78,16 @@ body {
 
 @-ms-keyframes peach_alive {
 	0%{
-		background-color: #fffff0;
+		background-color: #ff6745;
 	}
 	25%{
-		background-color: #fffff7;
+		background-color: #fcff45;
 	}
 	50%{
-		background-color: #fffff0;
+		background-color: #45ffca;
 	}
 	75%{
-		background-color: #fffffa;
+		background-color: #f08dae;
 	}
 	100%{
 		background-color: #fffff0;
@@ -96,16 +96,16 @@ body {
 
 @keyframes peach_alive {
 	0%{
-		background-color: #fffff0;
+		background-color: #ff6745;
 	}
 	25%{
-		background-color: #fffff7;
+		background-color: #fcff45;
 	}
 	50%{
-		background-color: #fffff0;
+		background-color: #45ffca;
 	}
 	75%{
-		background-color: #fffffa;
+		background-color: #f08dae;
 	}
 	100%{
 		background-color: #fffff0;
