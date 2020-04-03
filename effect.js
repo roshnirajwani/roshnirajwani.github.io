@@ -3,6 +3,7 @@ $(window).load(function(){
 	$('.container').fadeIn('fast');
 });
 $('document').ready(function(){
+	        $("p").hide();
 		var vw;
 		$(window).resize(function(){
 			 vw = $(window).width()/2;
