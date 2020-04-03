@@ -1260,7 +1260,7 @@ audio {
 	bottom: 0;
 	padding:10px 0px 10px 0px;
 }
-#play, #bannar_coming, #balloons_flying,#cake_fadein,#light_candle,#wish_message,#story {
+#play, #bannar_coming, #balloons_flying,#cake_fadein,#light_candle,#wish_message,#story,#cut_cake {
 	display: none;
 }
 
@@ -1275,7 +1275,7 @@ audio {
 	font-family: 'Signika', sans-serif;
 	font-size: 30px;
 	text-transform: uppercase;
-	color: #C4515C;
+	color: #171515;
 	text-shadow: 2px 2px 2px #FFF;
 	display: none;
 	font-weight: bold;
