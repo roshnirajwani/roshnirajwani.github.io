@@ -194,7 +194,16 @@ $('document').ready(function(){
 		msgLoop(0);
 		
 	});
+	
+	$(this).fadeOut('slow').delay(3000).promise().done(function(){
+			$('#cut_cake').fadeIn('slow');
+		});
 });
+
+$('#cut_cake').click(function(){
+		$(this).fadeOut('slow');
+	        $('.message').fadeIn('slow');
+	});
 
 
 
