@@ -203,7 +203,7 @@ $('document').ready(function(){
 $('#cut_cake').click(function(){
 		$(this).fadeOut('slow');
 	        $('.message').fadeIn('slow');
-	        $("#last msg").show();
+	        $("#last_msg").show();
 	});
 
 
