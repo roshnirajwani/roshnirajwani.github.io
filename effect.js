@@ -182,6 +182,9 @@ $('document').ready(function(){
 					$('.cake').fadeIn('fast');
 		                        $("p:nth-child("+i+")").fadeIn('slow').delay(1800);
 				});
+				$(this).fadeOut('slow').delay(3000).promise().done(function(){
+			           $('#cut_cake').fadeIn('slow');
+		                });
 				
 			}
 			else{
@@ -193,15 +196,13 @@ $('document').ready(function(){
 		}
 		
 		msgLoop(0);
-		$(this).fadeOut('slow').delay(3000).promise().done(function(){
-			$('#cut_cake').fadeIn('slow');
-		});
+		
 	});
 	
 	
 	$('#cut_cake').click(function(){
 		$(this).fadeOut('slow');
-	        $('.message').fadeIn('slow');
+	        $('.message p').fadeIn('slow');
 	        $("#last_msg").show();
 	});
 
