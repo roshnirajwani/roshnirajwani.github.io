@@ -168,14 +168,17 @@ $('document').ready(function(){
 			$("p:nth-child("+i+")").fadeIn('slow').delay(1500);
 			if(i==50){
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
-					$('.cake').fadeIn('fast');
-		                        $("p:nth-child("+i+")").fadeIn('slow').delay(1800);
+					$('#gimage').fadeIn('slow');
+					$(this).fadeOut('slow').delay(3000).promise().done(function(){
+					  $('.cake').fadeIn('fast');
+		                          $("p:nth-child("+i+")").fadeIn('slow').delay(1800);
+				        });
 				});
-				$(this).fadeOut('slow').delay(3000).promise().done(function(){
-			           $('#gimage').fadeIn('slow');
+				
+			           
 				   $(this).fadeOut('slow').delay(3000).promise().done(function(){
 			             $('#cut_cake').fadeIn('slow');
-		                   });
+		                   
 		                });
 				
 				
