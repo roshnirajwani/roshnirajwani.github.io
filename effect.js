@@ -170,8 +170,12 @@ $('document').ready(function(){
 		                        $("p:nth-child("+i+")").fadeIn('slow').delay(1800);
 				});
 				$(this).fadeOut('slow').delay(3000).promise().done(function(){
-			           $('#cut_cake').fadeIn('slow');
+			           $('#gimage').fadeIn('slow');
+				   $(this).fadeOut('slow').delay(3000).promise().done(function(){
+			             $('#cut_cake').fadeIn('slow');
+		                   });
 		                });
+				
 				
 			}
 			else{
