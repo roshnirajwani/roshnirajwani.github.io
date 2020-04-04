@@ -172,7 +172,7 @@ $('document').ready(function(){
 					$(this).fadeOut('slow').delay(3000).promise().done(function(){
 					$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').hide();
 					$('#b11,#b22,#b33,#b44,#b55,#b66,#b77').hide();
-						$('.balloons').fadeOut('fast').promise().done(funtion () {
+						$('.balloons').fadeOut('fast').promise().done(function () {
 								 $('.balloons h2').fadeOut('fast');
 								 $('.gifimage').fadeIn(2000);
 								  $('.gifimage').fadeOut(4000).promise().done(function () { 
