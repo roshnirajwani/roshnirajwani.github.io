@@ -1268,11 +1268,8 @@ audio {
 }
 
 .gifimage {
-     height: 250px;
-   left: 50%;
-   position: absolute;
-   top: 50%
-   width: 250px;
+	text-align:center;
+     top: 240px;
 }
 .cake-cover {
 	margin-top: 50px;
