@@ -1281,6 +1281,16 @@ audio {
 	font-weight: bold;
 }
 
+.lastmsg {
+	font-family: 'Signika', sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #171515;
+	text-shadow: 2px 2px 2px #FFF;
+	display: none;
+	font-weight: bold;
+}
+
 .btn-primary {
         border-color: #466baf;
         padding: 10px;
