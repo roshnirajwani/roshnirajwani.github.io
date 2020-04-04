@@ -969,8 +969,7 @@ audio {
 }
 
 .gifimage {
-	width: 100%;
-	opacity: 1;
+	display: none;
 }
 
 .bannar {
@@ -1265,7 +1264,7 @@ audio {
 	bottom: 0;
 	padding:10px 0px 10px 0px;
 }
-#play, #bannar_coming, #balloons_flying,#cake_fadein,#light_candle,#wish_message,#story,#cut_cake {
+#play, #bannar_coming, #balloons_flying,#cake_fadein,#light_candle,#wish_message,#story,#cut_cake, # {
 	display: none;
 }
 
