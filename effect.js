@@ -170,7 +170,7 @@ $('document').ready(function(){
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
 					$("p:nth-child("+i+")").fadeIn('slow').delay(1800);
 					$(this).fadeOut('slow').delay(3000).promise().done(function(){
-					$('.balloons').fadeOut('fast');
+					$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').hide();
 					 $('.balloons h2').fadeOut('fast');
 					 $('.gifimage').fadeIn(2000);
 					  $('.gifimage').fadeOut(4000);
