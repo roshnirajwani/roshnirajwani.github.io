@@ -968,6 +968,10 @@ audio {
 	display: none;
 }
 
+.gifimage {
+	display: none;
+}
+
 .bannar {
 	max-width: 100%;
 	-webkit-transform:translate(0px,-500px);
