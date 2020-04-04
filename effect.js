@@ -172,7 +172,7 @@ $('document').ready(function(){
 					$(this).fadeOut('slow');
 					$('#b11,#b22,#b33,#b44,#b55,#b66,#b77').hide();
 					$('.balloons').fadeOut('fast');
-					 $('.balloons h2').fadeOut('fast').promise().done(funtion(){ 
+					 $('.balloons h2').fadeOut('fast').promise().done(function(){ 
 							$('.gifimage').fadeIn(2000).promise().done() {
 						 		$('.gifimage').fadeOut(4000).promise().done(function(){
 									$('.cake').fadeIn('slow');
