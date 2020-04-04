@@ -176,9 +176,10 @@ $('document').ready(function(){
 					$('#b11,#b22,#b33,#b44,#b55,#b66,#b77').hide();
 						$('.balloons').fadeOut('fast').promise().done(function () {
 								 $('.balloons h2').fadeOut('fast');
+							         $('body').removeClass('peach-after');
 								 $('.gifimage').fadeIn(2000);
 								  $('.gifimage').fadeOut(4000).promise().done(function () { 
-									
+									$('body').addClass('peach-after');
 									$(this).fadeOut('slow').delay(3000).promise().done(function(){
 										 $('.cake').fadeIn('slow');
 										  $(this).fadeOut('slow').delay(3000).promise().done(function(){
