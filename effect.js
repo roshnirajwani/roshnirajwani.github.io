@@ -18,6 +18,7 @@ $('document').ready(function(){
 		});
 
 	$('#turn_on').click(function(){
+		
 		$('#bulb_yellow').addClass('bulb-glow-yellow');
 		$('#bulb_red').addClass('bulb-glow-red');
 		$('#bulb_blue').addClass('bulb-glow-blue');
@@ -36,6 +37,8 @@ $('document').ready(function(){
 		$(this).fadeOut('slow').delay(6000).promise().done(function(){
 			$('.bannar').addClass('bannar-come');
 		        $(this).fadeOut('slow').delay(6000).promise().done(function(){
+				var audio = $('.song')[0];
+                                audio.play();
 				$('.balloon-border').animate({top:-500},8000);
 				$('#b1,#b4,#b5,#b7').addClass('balloons-rotate-behaviour-one');
 				$('#b2,#b3,#b6').addClass('balloons-rotate-behaviour-two');
@@ -54,23 +57,15 @@ $('document').ready(function(){
 
 				$(this).fadeOut('slow').delay(5000).promise().done(function(){
 					$('.cake').fadeIn('slow');
-					$(this).fadeOut('slow').delay(5000).promise().done(function(){
-						$('#play').fadeIn('slow');
-					});
 					$(this).fadeOut('slow').delay(3000).promise().done(function(){
 					$('#light_candle').fadeIn('slow');
+					
 				});
 			});
 		  });
 		});
 		
 	});
-	$('#play').click(function(){
-		var audio = $('.song')[0];
-        audio.play();
-       
-	});
-
 	
 
 	function loopOne() {
