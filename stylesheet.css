@@ -1270,6 +1270,7 @@ audio {
 .gifimage {
 	text-align:center;
 	transform:translate(0px,0px);
+	margin-top: 50px;
 }
 .cake-cover {
 	margin-top: 50px;
