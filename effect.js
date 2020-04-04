@@ -169,7 +169,7 @@ $('document').ready(function(){
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
 					$('#gimage').fadeIn('slow');
 					$(this).fadeOut('slow').delay(3000).promise().done(function(){
-					  $('.cake').fadeIn('fast');
+					  $('.cake').fadeIn('slow');
 		                          $("p:nth-child("+i+")").fadeIn('slow').delay(1800);
 				        });
 				});
