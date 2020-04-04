@@ -196,8 +196,7 @@ $('document').ready(function(){
 	
 	
 	$('#cut_cake').click(function(){
-		$(this).fadeOut('slow');
-		$(this).fadeOut('slow').delay(3000).promise().done(function(){
+		$(this).fadeOut('fast').delay(2000).promise().done(function(){
 			           $('.cake').fadeOut('fast');
 		      });
 	        $('.lastmsg').fadeIn('slow');
