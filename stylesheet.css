@@ -968,9 +968,7 @@ audio {
 	display: none;
 }
 
-.gifimage{
-   width: 100%
-}
+
 
 
 .bannar {
@@ -1269,6 +1267,9 @@ audio {
 	display: none;
 }
 
+.gifimage {
+   width: 100%
+}
 .cake-cover {
 	margin-top: 50px;
 }
