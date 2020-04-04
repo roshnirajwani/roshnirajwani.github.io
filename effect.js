@@ -178,6 +178,10 @@ $('document').ready(function(){
 								  $('.gifimage').fadeOut(4000).promise().done(function () { 
 									$(this).fadeOut('slow').delay(3000).promise().done(function(){
 										 $('.cake').fadeIn('slow');
+										  $(this).fadeOut('slow').delay(3000).promise().done(function(){
+										     $('#cut_cake').fadeIn('slow');
+
+										});
 									});
 								 });
 						 });
@@ -186,10 +190,7 @@ $('document').ready(function(){
 				});
 				
 			           
-				   $(this).fadeOut('slow').delay(3000).promise().done(function(){
-			             $('#cut_cake').fadeIn('slow');
-		                   
-		                });
+				 
 				
 				
 			}
