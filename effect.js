@@ -4,6 +4,7 @@ $(window).load(function(){
 });
 $('document').ready(function(){
 	        $("p").hide();
+	        $(".gifimage").hide();
 		var vw;
 		$(window).resize(function(){
 			 vw = $(window).width()/2;
