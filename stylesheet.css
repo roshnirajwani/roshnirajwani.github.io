@@ -1269,7 +1269,7 @@ audio {
 
 .gifimage {
 	text-align:center;
-	
+	top: 50px;
 	margin: 0 auto;
 }
 .cake-cover {
