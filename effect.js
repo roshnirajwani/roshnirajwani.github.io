@@ -168,8 +168,9 @@ $('document').ready(function(){
 			$("p:nth-child("+i+")").fadeIn('slow').delay(1500);
 			if(i==50){
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
-					$('.gifimage').show();
+					$('.gifimage').fadeIn('slow');
 					$(this).fadeOut('slow').delay(3000).promise().done(function(){
+					  $('.gifimage').fadeOut('slow');
 					  $('.cake').fadeIn('slow');
 		                          $("p:nth-child("+i+")").fadeIn('slow').delay(1800);
 				        });
