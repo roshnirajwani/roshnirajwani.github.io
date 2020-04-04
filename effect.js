@@ -215,10 +215,10 @@ $('document').ready(function(){
 		$(this).fadeOut('fast').delay(2000).promise().done(function(){
 			           $('.cake').fadeOut('fast').promise.done(function() {
 					    $('.lastmsg').fadeIn('slow');
-	        			    $("#last_msg").fadeIn('slow');
+	        			    
 				   });
 		      });
-	       
+	       $("#last_msg").fadeIn('slow');
 	});
 
 });
