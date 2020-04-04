@@ -35,10 +35,11 @@ $('document').ready(function(){
 		$('body').css('backgroud-color','#FFF');
 		$('body').addClass('peach-after');
 		$(this).fadeOut('slow').delay(6000).promise().done(function(){
+			var audio = $('.song')[0];
+                        audio.play();
 			$('.bannar').addClass('bannar-come');
 		        $(this).fadeOut('slow').delay(6000).promise().done(function(){
-				var audio = $('.song')[0];
-                                audio.play();
+				
 				$('.balloon-border').animate({top:-500},8000);
 				$('#b1,#b4,#b5,#b7').addClass('balloons-rotate-behaviour-one');
 				$('#b2,#b3,#b6').addClass('balloons-rotate-behaviour-two');
