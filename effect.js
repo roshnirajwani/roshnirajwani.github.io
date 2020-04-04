@@ -4,7 +4,6 @@ $(window).load(function(){
 });
 $('document').ready(function(){
 	        $("p").hide();
-	        $("img").hide();
 		var vw;
 		$(window).resize(function(){
 			 vw = $(window).width()/2;
@@ -38,10 +37,10 @@ $('document').ready(function(){
 		$(this).fadeOut('slow').delay(4000).promise().done(function(){
 			var audio = $('.song')[0];
                         audio.play();
-			$('.bannar').addClass('bannar-come').show();
+			$('.bannar').addClass('bannar-come');
 		        $(this).fadeOut('slow').delay(5000).promise().done(function(){
 				
-				$('.balloon-border').animate({top:-500},8000).show();
+				$('.balloon-border').animate({top:-500},8000);
 				$('#b1,#b4,#b5,#b7').addClass('balloons-rotate-behaviour-one');
 				$('#b2,#b3,#b6').addClass('balloons-rotate-behaviour-two');
 				// $('#b3').addClass('balloons-rotate-behaviour-two');
