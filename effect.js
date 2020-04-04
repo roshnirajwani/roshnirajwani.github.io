@@ -168,11 +168,15 @@ $('document').ready(function(){
 			$("p:nth-child("+i+")").fadeIn('slow').delay(1500);
 			if(i==50){
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
-					$('.gifimage').fadeIn('slow');
+					$("p:nth-child("+i+")").fadeIn('slow').delay(1800);
+					$('.gifimage').fadeIn(2000);
 					$(this).fadeOut('slow').delay(3000).promise().done(function(){
-					  $('.gifimage').fadeOut('slow');
-					  $('.cake').fadeIn('slow');
-		                          $("p:nth-child("+i+")").fadeIn('slow').delay(1800);
+					 $('.balloons h2').fadeOut(3000);
+					  $('.gifimage').fadeOut(4000);
+						$(this).fadeOut('slow').delay(3000).promise().done(function(){
+			           			 $('.cake').fadeIn('slow');
+		                		});
+					  
 				        });
 				});
 				
