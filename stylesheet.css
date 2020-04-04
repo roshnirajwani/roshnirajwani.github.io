@@ -1271,6 +1271,8 @@ audio {
    width: 100%;
    display: none;
    margin-top: 200px;
+   position: fixed;
+   bottom: -200px;
 }
 .cake-cover {
 	margin-top: 50px;
