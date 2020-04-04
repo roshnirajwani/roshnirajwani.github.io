@@ -124,13 +124,7 @@ $('document').ready(function(){
 		});
 	}
 
-	$('#balloons_flying').click(function(){
-		
-	});	
-
-	$('#cake_fadein').click(function(){
-		
-	});
+	
 
 	$('#light_candle').click(function(){
 		$('.fuego').fadeIn('slow');
