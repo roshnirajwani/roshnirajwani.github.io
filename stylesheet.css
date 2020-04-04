@@ -968,9 +968,10 @@ audio {
 	display: none;
 }
 
-.gifimage {
-	display: none;
+.gifimage{
+   width: 100%
 }
+
 
 .bannar {
 	max-width: 100%;
