@@ -170,7 +170,8 @@ $('document').ready(function(){
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
 					$("p:nth-child("+i+")").fadeIn('slow').delay(1800);
 					$(this).fadeOut('slow').delay(3000).promise().done(function(){
-					$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').hide();
+					$('#b11,#b22,#b33,#b44,#b55,#b66,#b77').hide();
+					$('.balloons').fadeOut('fast');
 					 $('.balloons h2').fadeOut('fast');
 					 $('.gifimage').fadeIn(2000);
 					  $('.gifimage').fadeOut(4000);
