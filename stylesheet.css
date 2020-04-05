@@ -1324,6 +1324,8 @@ audio {
 }
 
 .picmsg {
+	 background-color: black;
+  	color: white;
 	position: absolute;
 	font-family: 'Signika', sans-serif;
 	font-size: 30px;
