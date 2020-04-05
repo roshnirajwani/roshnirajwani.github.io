@@ -233,7 +233,7 @@ $('document').ready(function(){
 		$('.bannar').removeClass('bannar-come');
 		 $('.collage').fadeIn(2000).promise().done(function(){
 			 $('.picmsg').fadeIn(3000).promise().done(function(){
-				 $("#pic_msg").fadeIn('fast').delay(5000).promise().done(function() { 
+				 $("#pic_msg").fadeIn('fast').delay(3000).promise().done(function() { 
 					$("#pic_msg").fadeOut(4000).delay(3000).promise().done(function(){ 
 					 $('.collage').fadeOut(5000).delay(1000).promise().done(function () { 
 
