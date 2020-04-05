@@ -238,7 +238,7 @@ $('document').ready(function(){
 					 $('.collage').fadeOut(5000).delay(1000).promise().done(function () { 
 
 					  $('.lastpic').fadeIn(2000).promise().done(function() { 
-						  $('.lastgreet').fadeIn(3000).promise().done(function(){
+						  $('.lastgreet').fadeIn(1000).promise().done(function(){
 							 $("#firstmsg").fadeIn('fast').delay(4000).promise().done(function(){
 								$("#firstmsg").fadeOut('slow').delay(4000).promise().done(function(){ 
 								$("#secondmsg").fadeIn('fast').delay(3000).promise().done(function(){
