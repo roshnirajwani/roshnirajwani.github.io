@@ -218,7 +218,7 @@ $('document').ready(function(){
 			           $('.cake').fadeOut('fast').promise().done(function() {
 					    $('.lastmsg').fadeIn('slow');
 					    $("#last_msg").show();
-					    $("#last_msg").fadeOut('slow').delay(4000).promise().done(function(){
+					    $("#last_msg").fadeOut('slow').delay(8000).promise().done(function(){
 						  $('#one_last').fadeIn('slow');  
 					    });
 	        			    
@@ -228,7 +228,7 @@ $('document').ready(function(){
 	});
 	
 	$('#one_last').click(function(){
-		$(this).fadeOut('fast').delay(2000).promise().done(function(){
+		$(this).fadeOut('fast').delay(5000).promise().done(function(){
 			 $('.collage').fadeIn(2000);
 			 $('.picmsg').fadeIn('slow');
 			 $('.collage').fadeOut(6000).promise().done(function () { 
