@@ -229,7 +229,7 @@ $('document').ready(function(){
 	});
 	
 	$('#one_last').click(function(){
-	$(this).fadeOut('fast').delay(5000).promise().done(function(){
+	$(this).fadeOut('fast').delay(1000).promise().done(function(){
 		$('.bannar').removeClass('bannar-come');
 		 $('.collage').fadeIn(2000).promise().done(function(){
 			 $('.picmsg').fadeIn(3000).promise().done(function(){
