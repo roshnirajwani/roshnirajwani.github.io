@@ -219,7 +219,7 @@ $('document').ready(function(){
 					    $('.lastmsg').fadeIn('slow');
 					    $("#last_msg").fadeIn(4000).promise().done(function(){
 						    $("#last_msg").fadeOut('slow').delay(2000).promise().done(function(){
-							  $('#one_last').fadeIn(1400);  
+							  $('#one_last').fadeIn(800);  
 						    });
 				         });
 	        			    
@@ -230,6 +230,7 @@ $('document').ready(function(){
 	
 	$('#one_last').click(function(){
 		$(this).fadeOut('fast').delay(5000).promise().done(function(){
+			$('.bannar').removeClass('bannar-come');
 			 $('.collage').fadeIn(2000).promise().done(function(){
 				 $('.picmsg').fadeIn(3000).promise().done(function(){
 					 $("#pic_msg").fadeIn('fast').promise().done(function() { 
