@@ -1278,17 +1278,17 @@ audio {
 
 .collage {
 
-	  width: 150px;
-	  height: 100px;
-	  position: absolute;
-	  left: 15%;
-	  top: 55%;
-	  transform: translate(-50%, -50%);
+	background-image: url('PicsArt_04-05-05.11.36 (1) (1).jpg');
+	  background-position: center center;
+	  background-repeat: no-repeat;
+	  background-size: contain;
+	  width: 100vw;
+	  height: 100vh;
 }
 
 .lastpic {
-	  width: 150px;
-	  height: 100px;
+	  width: 300px;
+	  height: 250px;
 	  position: absolute;
 	  left: 45%;
 	  top: 55%;
