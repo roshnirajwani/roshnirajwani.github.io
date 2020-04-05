@@ -232,13 +232,18 @@ $('document').ready(function(){
 		$(this).fadeOut('fast').delay(5000).promise().done(function(){
 			 $('.collage').fadeIn(2000).promise().done(function(){
 				 $('.picmsg').fadeIn(3000).promise().done(function(){
-					 $('.collage').fadeOut(6000).promise().done(function () { 
-						  $('.picmsg').fadeOut(3000).promise().done(function () {
-							  $('.lastpic').fadeIn(2000).promise().done(function() { 
-							 	 $('.lastgreet').fadeIn(2000);
-						          });
-						  });
-					 });
+					 $("#pic_msg").fadeIn('fast').promise().done(function() { 
+						$("#pic_msg").fadeOut('slow').delay(2000).promise().done(function(){ 
+							 $('.collage').fadeOut(6000).promise().done(function () { 
+								 
+								  $('.lastpic').fadeIn(2000).promise().done(function() { 
+									 $('.lastgreet').fadeIn(2000);
+									
+								  });
+								 
+							 });
+						});
+					});
 				 });
 			 });
 		});
