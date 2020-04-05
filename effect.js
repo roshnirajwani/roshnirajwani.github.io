@@ -218,7 +218,7 @@ $('document').ready(function(){
 	        			    
 				   });
 		      });
-	       $("#last_msg").fadeIn('slow');
+	       $("#last_msg").show();
 	});
 
 });
