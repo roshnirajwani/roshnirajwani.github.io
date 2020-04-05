@@ -219,7 +219,7 @@ $('document').ready(function(){
 					    $('.lastmsg').fadeIn('slow');
 					    $("#last_msg").fadeIn(4000).promise().done(function(){
 						    $("#last_msg").fadeOut('slow').delay(2000).promise().done(function(){
-							  $('#one_last').fadeIn('slow');  
+							  $('#one_last').fadeIn(1400);  
 						    });
 				         });
 	        			    
@@ -234,8 +234,9 @@ $('document').ready(function(){
 				 $('.picmsg').fadeIn(3000).promise().done(function(){
 					 $('.collage').fadeOut(6000).promise().done(function () { 
 						  $('.picmsg').fadeOut(3000).promise().done(function () {
-							  $('.lastpic').fadeIn(2000);
-							  $('.lastgreet').fadeIn('slow');
+							  $('.lastpic').fadeIn(2000).promise().done(function() { 
+							 	 $('.lastgreet').fadeIn(2000);
+						          });
 						  });
 					 });
 				 });
