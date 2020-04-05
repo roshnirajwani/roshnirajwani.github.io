@@ -239,9 +239,9 @@ $('document').ready(function(){
 
 					  $('.lastpic').fadeIn(2000).promise().done(function() { 
 						  $('.lastgreet').fadeIn(3000).promise().done(function(){
-							 $("#firstmsg").fadeIn('fast').promise().done(function(){
+							 $("#firstmsg").fadeIn('fast').delay(4000).promise().done(function(){
 								$("#firstmsg").fadeOut('slow').delay(4000).promise().done(function(){ 
-								$("#secondmsg").fadeIn('fast').promise().done(function(){
+								$("#secondmsg").fadeIn('fast').delay(4000).promise().done(function(){
 								$("#secondmsg").fadeOut('slow').delay(4000).promise().done(function(){
 									$("#thirdmsg").fadeIn('fast');
 								});
