@@ -240,9 +240,9 @@ $('document').ready(function(){
 					  $('.lastpic').fadeIn(2000).promise().done(function() { 
 						  $('.lastgreet').fadeIn(1000).promise().done(function(){
 							 $("#firstmsg").fadeIn('fast').delay(4000).promise().done(function(){
-								$("#firstmsg").fadeOut('slow').delay(4000).promise().done(function(){ 
+								$("#firstmsg").fadeOut('slow').delay(1000).promise().done(function(){ 
 								$("#secondmsg").fadeIn('fast').delay(3000).promise().done(function(){
-								$("#secondmsg").fadeOut('slow').delay(2000).promise().done(function(){
+								$("#secondmsg").fadeOut('slow').delay(1000).promise().done(function(){
 									$("#thirdmsg").fadeIn('fast');
 								});
 									});
