@@ -213,12 +213,13 @@ $('document').ready(function(){
 	
 	$('#cut_cake').click(function(){
 		$(this).fadeOut('fast').delay(2000).promise().done(function(){
-			           $('.cake').fadeOut('fast').promise.done(function() {
+			           $('.cake').fadeOut('fast').promise().done(function() {
 					    $('.lastmsg').fadeIn('slow');
+					    $("#last_msg").show();
 	        			    
 				   });
 		      });
-	       $("#last_msg").show();
+	       
 	});
 
 });
