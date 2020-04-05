@@ -1282,7 +1282,7 @@ audio {
 	  height: 250px;
 	  position: absolute;
 	  left: 38%;
-	  top: 38%;
+	  top: 35%;
 	  transform: translate(-50%, -50%);
 }
 
@@ -1291,7 +1291,7 @@ audio {
 	  height: 250px;
 	  position: absolute;
 	  left: 55%;
-	  top: 38%;
+	  top: 35%;
 	  transform: translate(-50%, -50%);
 }
 
